@@ -10,7 +10,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
   </columnConstraints>
@@ -86,12 +86,12 @@
                   <Font size="35.0" />
                </font>
             </Button>
-            <Button contentDisplay="TOP" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FFFF00;" text="," GridPane.rowIndex="4">
+            <Button contentDisplay="TOP" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FFFF00;" text="," GridPane.columnIndex="2" GridPane.rowIndex="4">
                <font>
                   <Font size="35.0" />
                </font>
             </Button>
-            <Button contentDisplay="TOP" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FFFF00;" text="=" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="4">
+            <Button contentDisplay="TOP" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FFFF00;" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4">
                <font>
                   <Font size="35.0" />
                </font>
@@ -117,6 +117,11 @@
                </font>
             </Button>
             <Button contentDisplay="TOP" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#processNum" onKeyPressed="#processNum" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #207AAC;" text="7" GridPane.rowIndex="1">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="TOP" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FFFF00;" text="+/-" GridPane.rowIndex="4">
                <font>
                   <Font size="35.0" />
                </font>
